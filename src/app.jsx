@@ -11,7 +11,7 @@ import Contact from './components/Contact';
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
-const app = () => {
+const App = () => {
   return (
     <main>
         <Navbar />
@@ -25,4 +25,4 @@ const app = () => {
   )
 }
 
-export default app
+export default App
